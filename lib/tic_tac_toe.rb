@@ -120,3 +120,8 @@ def winner(board)
   }
   return false
 end
+
+def play(board)
+  unitl over?(board) == true
+end
+  
