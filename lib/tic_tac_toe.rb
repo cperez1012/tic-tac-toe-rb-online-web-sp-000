@@ -53,13 +53,11 @@ def turn(board)
   if valid_move?(board, index)
     player_token = current_player(board)
     move(board, index, player_token)
-
     display_board(board)
   else
     puts "try again"
     turn(board)
   end
-  display_board
 end
 
 def full?(board)
