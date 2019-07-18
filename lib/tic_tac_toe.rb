@@ -38,11 +38,7 @@ def position_taken?(board, location)
 end
 
 def valid_move?(board, index)
-if index.between?(0,8) && !position_taken?(board, index)
-  return true
-else
-  return false
-end
+  index.between?(0,8) && !position_taken?(board, index)
 end
 #binding.pry
 
