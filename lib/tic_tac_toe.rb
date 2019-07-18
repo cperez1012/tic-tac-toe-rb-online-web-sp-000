@@ -123,5 +123,5 @@ end
 
 def play(board)
   unitl over?(board) == true
+  turn(board)
 end
-  
