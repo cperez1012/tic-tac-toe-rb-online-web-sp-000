@@ -51,16 +51,19 @@ turn_count(board) % 2 == 0 ? "X" : "O"
 end
 
 def turn(board)
-  puts "Please enter number 1-9:"
+  puts "Please enter 1-9:"
   user_input = gets.strip
   index = input_to_index(user_input)
   if valid_move?(board, index)
     player_token = current_player(board)
     move(board, index, player_token)
+
     display_board(board)
   else
+    puts "try again"
     turn(board)
   end
+  display_board
 end
 
 def full?(board)
