@@ -132,4 +132,3 @@ elsif draw?(board)
   puts "Cat's Game!"
 end
 end
-  
