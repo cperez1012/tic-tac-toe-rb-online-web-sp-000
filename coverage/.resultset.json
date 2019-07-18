@@ -2,9 +2,42 @@
   "RSpec": {
     "coverage": {
       "/home/mystical-glossary-7309/tic-tac-toe-rb-online-web-sp-000/lib/tic_tac_toe.rb": [
-
+        null,
+        null,
+        1,
+        8,
+        8,
+        8,
+        8,
+        8,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        3,
+        null,
+        null,
+        1,
+        3,
+        null
       ]
     },
-    "timestamp": 1563474283
+    "timestamp": 1563474296
   }
 }
